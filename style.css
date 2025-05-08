@@ -1,0 +1,44 @@
+.box__perent {
+    max-width: 1440px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    background-color: red;
+    width: 220px;
+    height: 220px;
+}
+
+@media (min-width:1196px) and (max-width:1495px) {
+    .box {
+        background-color: blue;
+    }
+}
+
+@media (min-width:956px) and (max-width:1195px) {
+    .box {
+        background-color: green;
+    }
+}
+
+@media (min-width:716px) and (max-width:955px) {
+    .box {
+        background-color: aqua;
+    }
+}
+
+@media (min-width:476px) and (max-width:715px) {
+    .box {
+        background-color: purple;
+    }
+}
+
+@media (min-width:234px) and (max-width:475px) {
+    .box {
+        background-color: brown;
+    }
+}
